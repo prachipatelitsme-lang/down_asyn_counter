@@ -1,0 +1,47 @@
+
+*** Running vivado
+    with args -log down_asyn_counter_tb.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source down_asyn_counter_tb.tcl
+
+
+INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detected. Your current license is active and will expire on 30-sep-2027.
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Sun Nov  1 14:45:18 2026
+# Process ID         : 4548
+# Current directory  : C:/Users/aryan/Documents/viv_projects/Down_asyn_counter/Down_asyn_counter.runs/synth_1
+# Command line       : vivado.exe -log down_asyn_counter_tb.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source down_asyn_counter_tb.tcl
+# Log file           : C:/Users/aryan/Documents/viv_projects/Down_asyn_counter/Down_asyn_counter.runs/synth_1/down_asyn_counter_tb.vds
+# Journal file       : C:/Users/aryan/Documents/viv_projects/Down_asyn_counter/Down_asyn_counter.runs/synth_1\vivado.jou
+# Running On         : LAPTOP-QU9961VU
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) 5 210H
+# CPU Frequency      : 2688 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 12
+# Host memory        : 25380 MB
+# Swap memory        : 1610 MB
+# Total Virtual      : 26991 MB
+# Available Virtual  : 13092 MB
+#-----------------------------------------------------------
+
+****** Vivado v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Sun Nov  1 14:45:18 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source down_asyn_counter_tb.tcl -notrace
+create_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 593.035 ; gain = 268.625
+Command: synth_design -top down_asyn_counter_tb -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Vivado_Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Vivado_Synthesis' and/or device 'xc7a35t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 2024
